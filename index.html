@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopWatch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1e7eefbb4a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="first">
+        <h2>STOPWATCH</h2>
+        <div class="stpwth">
+            <div class="result">
+                <span id="hr">00:</span><span id="hr-separator"></span>
+                <span id="min">00:</span>
+                <span id="sec">00</span>
+                <span id="ms">.00</span>
+            </div>
+        </div>
+        <div class="btn">
+            <button id="refresh" class="hidden"><i class="fa-solid fa-arrows-rotate"></i></button>
+            <button id="play"><i class="fa-solid fa-play"></i></button>
+            <button id="laps" class="hidden"><i class="fa-solid fa-flag"></i></button>
+        </div>
+        <div class="laps-container">
+            <ul id="lapsList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>    
+</body>
+</html>
