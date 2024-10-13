@@ -1,6 +1,6 @@
-# StopWatch Web Application #
+# Stopwatch Web Application #
 ## Web Application ##
-# StopWatch # 
+# Stopwatch # 
 This web application provides a user-friendly stopwatch with dynamic controls. Users can easily start, stop, and reset the timer, as well as record multiple lap times. The application is responsive, ensuring seamless functionality across devices of all sizes. Upon stopping the timer, users have the option to share their recorded time.
 # Features #
 - Start/Stop functionality: The main button acts as a start/stop control for the stopwatch.
